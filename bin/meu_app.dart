@@ -31,6 +31,8 @@ void main(List<String> arguments) {
     resultado = prova / prova2;
   } else {
     print('Operação inválida.');
+    exit(0);
   }
+  print("Operação solicitada: $operacao");
   print('O resultado da operação é: $resultado');
 }
